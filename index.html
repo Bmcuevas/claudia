@@ -1,365 +1,400 @@
-<!DOCTYPE HTML>
-<!--
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Claudia Baratta</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bruno Cuevas</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+	<link rel="shortcut icon" type="image/jpg" href="img/devjane.png"/>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
 
-		<!-- Wrapper -->
-		<video class="video" src="images/video.mp4" muted loop autoplay playsinline></video>
+<!-- Navbar Section -->
+
+<nav class="navbar">
+	<div class = "navbar_container">
+		<a href = "#home" id="navbar_logo"><img src="img/devjane.png" alt=""></a>
+		<div class="navbar_toggle" id = "mobile-menu">
+			<span class="bar"></span>
+			<span class="bar"></span>
+			<span class="bar"></span>
+		</div>
+
+		<ul class="navbar_menu">
+			<li class="navbar_item">
+				<a href="#home" class="navbar_links" id="home-page">Home</a> 
+			</li>
+			<li class="navbar_item">
+				<a href="#about" class="navbar_links" id="about-page">About</a> 
+			</li>
+			<li class="navbar_item">
+				<a href="#services" class="navbar_links" id="services-page">Skills</a> 
+			</li>
+			<li class="navbar_item">
+				<a href="#derkishaus" class="navbar_links" id="derkishaus-page">DerkisHaus</a> 
+			</li>
+			<li class="navbar_item">
+				<a href="#passions" class="navbar_links" id="passions-page">Passions</a> 
+			</li>
+			<li class="navbar_btn">
+				<a href="#contact" class="button" id="contact-page">Contact</a> 
+			</li>
+		</ul>
+	</div>
+</nav>
+
+<!-- Hero Section -->
+<div class="hero" id="home">
+	<div class="outer">
+		<div class="hero_container">
+			<h1 class="hero_heading">
+				Hi! I'm Bruno <span> Cuevas</span></h1>
+			<p class="hero_description">Industrial Engineering Student</p>
+			<p class="hero_orientation">Business Intelligence and mechatronics oriented</p>
+			<button class="main_btn"><a href="#contact">Contact me!</a></button>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<!-- About Section -->
+<!-- <div class="main" id="about">
+	<div class="main_container">
+		<div class="main_img_container">
+			<div class="main_img_card"><i class="fas fa-layer-group"></i></div>
+		</div> -->
+
+		<div class="main" id="about">
+			<div class="main_container">
+				<div class="main_img_container">
+					<div class="main_img_card"><img src="images/me.JPG" alt="me"></div>
+				</div>
+
+		<div class="main_content">
+			<!-- <h1>Some Things</h1> -->
+			<h2>About <span
+				class="txt-rotate"
+				data-period="2000"
+				data-rotate='[ "Bruno", "Myself", "Me"]'></span></h2>
+			<p>I am a highly motivated and curious 21 year old student with formal education acquired 
+				through an excellent classroom performance. I am looking forward to finishing my double 
+				degree in industrial engineering, management oriented, with the goal of improving my decision-making 
+				and problem solving skills. In terms of goals, I want to see society benefit from my education and life experiences, 
+				hopefully inspiring others along the way.</p>
+			<button class="main_btn_2"><a href="images/cv_resume.pdf" target="_blank" >Resume + CV</a></button>
+		</div>
+	</div>
+</div>
+
+<!-- Services Section -->
+<div class="services" id="services">
+	<h1>My Skills</h1>
+	<div class="services_wrapper">
+		<div class="services_card">
+			<div class="icon"><i class="fas fa-book-reader"></i></div>
+			<h2>Soft Skills</h2>
+			<p> My ultimate goal is to inspire and mobilize
+				people, to drive an improvement in society and to make it more humane: leaving a legacy along the way.</p>
+		</div>
+		<div class="services_card">
+			<div class="icon"><i class="fas fa-globe-americas"></i></i></div>
+			<h2>Languages</h2>
+			<p>I am a native Spanish speaker. I have a professional level in Italian and an advanced level in English. 
+				I am currently improving these languages and aiming to learn French. </p>
+		</div>
+		<div class="services_card">
+			<div class="icon"><i class="fas fa-code"></i></div>
+			<h2>Web Development</h2>
+			<p>I can understand and write HTML and CSS code. I apply 
+				these languages for my personal projects. I am currently 
+				learning JavaScript and improving my skills with online courses. </p>
+		</div>
+		<div class="services_card">
+			<div class="icon"><i class="fas fa-chart-pie"></i></div>
+			<h2> Data Science </h2>
+			<p>Thanks to my studies in engineering I have a lot of knowledge in statistics. 
+				I can use python and R to develop machine learning models and create graphs. </p>
+		</div>
+	</div>
+</div>
+
+<!-- DerkisHuas -->
+
+<!-- <div class="main" id="contact">
+	<div class="main_container">
 		
-			<div id="wrapper">
-				
+		<div class="main_content">
+			<h1>Something About</h1>
+			<h2>DerkisHaus</h2>
+			<p></p>
 
-				<!-- Header -->
-					<header id="header">
-						<div class="logo">
-							<!-- <span class="icon fa-gem"></span> -->
-							<span class="icon"><i class="fas fa-paint-brush"></i></span>
-						</div>
-						<div class="content">
-							<div class="inner">
-								<h1>Claudia Baratta</h1>
-								<p></p>
-							</div>
-						</div>
-						<nav>
-							<ul>
-								<li><a href="#intro">Sobre mí</a></li>
-								<li><a href="portfolio/portfolio.html">Mis obras</a></li>
-								<li><a href="#about">Experiencia</a></li>
-								<li><a href="#contact">Contacto</a></li>
-								<!--<li><a href="#elements">Elements</a></li>-->
-							</ul>
-						</nav>
-					</header>
+			<button class="main_btn"><a href="https://derkishaus.com">+</a></button>
+		</div>
+		<div class="main_img_container">
+			<div class="main_img_card_2" id="card-2"><i class="fas fa-users"></i></div>
+		</div>
 
-				<!-- Main -->
-					<div id="main">
+	</div>
+</div> -->
 
-						<!-- Intro -->
-							<article id="intro">
-								<h2 class="major">Sobre Mí</h2>
-								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
-							</article>
+<div class="main" id="derkishaus">
+	<div class="main_container">
+		<div class="derkishaus">
+			<h2>DerkisHaus</h2>
+			<p>This is my most important project. DerkisHaus is an experimental platform that is open to substantial modes and changes. It is inspired by the opportunity to work with young designers, engineers and artists, with the aim of pushing the boundaries of what this interdisciplinarity can bring to the context to improve it. It has a strong educational agenda that seeks to inspire young professionals to expand their skills and abilities, giving them the opportunity to contribute to special projects.</p>
+			<button class="main_btn"><a href="https://derkishaus.com" target="_blank" >+</a></button>
+		</div>
+		<div class="dh_img_container">
+			<div class="dh_img"><img src="images/dh.jpg" alt="dh"></div>
+		</div>
+	</div>
+</div>
 
-						<!-- Work -->
-							<article id="work">
-								<h2 class="major">Work</h2>
-								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-								<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
-							</article>
+   <!-- ============================
+			My Work
+	============================ -->
 
-						<!-- About -->
-							<article id="about">
-								<h2 class="major">Experiencia</h2>
-								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-								<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
-							</article>
+<div class="my-work" id="passions">
+	<h2 class="section__title section__title--work">Activities and Passions</h2>
+	<p class="section__subtitle section__subtitle--work">A selection of things that I <span
+		class="txt-rotate" id= "spam-enjoy" data-period="2000"
+		data-rotate='[ "love", "have achieved", "enjoy", "can do", "have learned" ]'></span></p>
+	</div> 
 
-						<!-- Contact -->
-							<article id="contact">
-								<h2 class="major">Contacto</h2>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<label for="name">Nombre</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Mail</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Mensaje</label>
-											<textarea name="message" id="message" rows="4"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Enviar" class="primary" /></li>
-										<li><input type="reset" value="Cancelar" /></li>
-									</ul>
-								</form>
-								<!-- <ul class="icons">
-									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-								</ul> -->
-							</article>
+<div id="gallery">
+	<article class="thumb">
+		<a href="images/piano.jpg" class="image"><img src="images/piano2.JPG" alt="" /></a>
+		<h2>Piano musician and teacher</h2>
+		<p>I have been playing Classical music since 2013. I participated in a <a href="https://www.youtube.com/watch?v=PEdI44yBx5w" target="_blank">piano masterclass</a> in Vittorio Veneto, Italy.</p>
+	</article>
+	<article class="thumb">
+		<a href="images/coctelera2.png" class="image"><img src="images/coctelera.jpg" alt="" /></a>
+		<h2>Beverage Dispenser</h2>
+		<p>I built a <a href="https://www.youtube.com/watch?v=ZxbqkQXd_Lw" target="_blank">beverage dispenser</a> using industrial equipment.</p>
+	</article>
+	<article class="thumb">
+		<a href="images/premiodante.jpg" class="image"><img src="images/premiodante.jpg" alt="" /></a>
+		<h2>Winner of Dante Alighieri School "Honor Award 2018"</h2>
+		<p>Over the course of six years, directives and professors had been evaluating high school students for this award. They have taken into account: proactivity, enthusiasm, perseverance, good disposition and the ability to establish good relationships with peers and superiors.</p>
+	</article>
 
-						<!-- Elements -->
-							<article id="elements">
-								<h2 class="major">Elements</h2>
+	<article class="thumb">
+		<a href="images/mano2.png" class="image"><img src="images/mano.png" alt="" /></a>
+		<h2>Robotic Hand</h2>
+		<p>Built a 3d-printed <a href="https://www.youtube.com/watch?v=ZxbqkQXd_Lw" target="_blank" rel="noopener noreferrer">robotic hand</a> controlled by IA, an App and a glove.</p>
+	</article>
+	<article class="thumb">
+		<a href="images/natacion2.jpg" class="image"><img src="images/natacion.JPG" alt="" /></a>
+		<h2>Sports</h2>
+		<p>I have been doing competitive swimming since 2010. Participated in several national competitions. Thanks to swimming I also learned what effort and hard work meant to achieve a a goal</p>
+	</article>
+	<article class="thumb">
+		<a href="images/2.jpg" class="image"><img src="images/1.jpg" alt="" /></a>
+		<h2>Invited to participate on Ted-Ed Weekend 2018.</h2>
+		<p>I have participated in several Ted Talk courses</p>
+	</article>
+	<article class="thumb">
+		<a href="images/travel2.jpg" class="image"><img src="images/travel.jpg" alt="" /></a>
+		<h2>Traveling</h2>
+		<p>Traveling helps me to understand the world with a more holistic view. I understood that in today’s globalised world, in order to have a real impact, it is necessary to understand people and their cultures.</p>
+	</article>
+	<article class="thumb">
+		<a href="images/austral.jpg" class="image"><img src="images/austral2.png" alt="" /></a>
+		<h2><em>"Austral's Academic Excellence Scholarship"</em> and <em>"Galicia's Scholarship"</em></h2>
+		<p>Galicia Bank and Austral University are investing in my academic career with a full tuition scholarship, allowing me access to high-level education.</p>
+	</article>
+	<!-- <article class="thumb">
+		<a href="images/fulls/09.jpg" class="image"><img src="images/thumbs/09.jpg" alt="" /></a>
+		<h2>President of the 2019 Class</h2>
+		<p>I have been elect by my partners as president of the industrial engineering class. In this role I act within the personal environment and transform it for the better. Using leadership and negotiation skills I make decisions that benefit all parties equally.</p>
+	</article>
+	<article class="thumb">
+		<a href="images/fulls/10.jpg" class="image"><img src="images/thumbs/10.jpg" alt="" /></a>
+		<h2>Mattis </h2>
+		<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
+	</article>
+	<article class="thumb">
+		<a href="images/fulls/11.jpg" class="image"><img src="images/thumbs/11.jpg" alt="" /></a>
+		<h2>Sed ac elementum arcu</h2>
+		<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
+	</article>
+	<article class="thumb">
+		<a href="images/fulls/12.jpg" class="image"><img src="images/thumbs/12.jpg" alt="" /></a>
+		<h2>Vehicula id nulla dignissim</h2>
+		<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
+	</article> -->
+</div>
+	
 
-								<section>
-									<h3 class="major">Text</h3>
-									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-									<hr />
-									<h2>Heading Level 2</h2>
-									<h3>Heading Level 3</h3>
-									<h4>Heading Level 4</h4>
-									<h5>Heading Level 5</h5>
-									<h6>Heading Level 6</h6>
-									<hr />
-									<h4>Blockquote</h4>
-									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-									<h4>Preformatted</h4>
-									<pre><code>i = 0;
+	<!-- <div class="portfolio">
 
-while (!deck.isInOrder()) {
-    print 'Iteration ' + i;
-    deck.shuffle();
-    i++;
-}
+		<a href="portfolio-item.html" class="portfolio__item">
+			<img src="img/portfolio-01.jpg" alt="" class="portfolio__img">
+		</a>
+		
 
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-								</section>
+		<a href="portfolio-item.html" class="portfolio__item">
+			<img src="img/portfolio-02.jpg" alt="" class="portfolio__img">
+		</a>
+		
 
-								<section>
-									<h3 class="major">Lists</h3>
+		<a href="portfolio-item.html" class="portfolio__item">
+			<img src="img/portfolio-03.jpg" alt="" class="portfolio__img">
+		</a>
+		
 
-									<h4>Unordered</h4>
-									<ul>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
+		<a href="portfolio-item.html" class="portfolio__item">
+			<img src="img/portfolio-04.jpg" alt="" class="portfolio__img">
+		</a>
+		
 
-									<h4>Alternate</h4>
-									<ul class="alt">
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
+		<a href="portfolio-item.html" class="portfolio__item">
+			<img src="img/portfolio-05.jpg" alt="" class="portfolio__img">
+		</a>
+		
 
-									<h4>Ordered</h4>
-									<ol>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis viverra.</li>
-										<li>Felis enim feugiat.</li>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis lorem.</li>
-										<li>Felis enim et feugiat.</li>
-									</ol>
-									<h4>Icons</h4>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-									</ul>
+		<a href="portfolio-item.html" class="portfolio__item">
+			<img src="img/portfolio-06.jpg" alt="" class="portfolio__img">
+		</a>
+		
 
-									<h4>Actions</h4>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-								</section>
+		<a href="portfolio-item.html" class="portfolio__item">
+			<img src="img/portfolio-07.jpg" alt="" class="portfolio__img">
+		</a>
+		
 
-								<section>
-									<h3 class="major">Table</h3>
-									<h4>Default</h4>
-									<div class="table-wrapper">
-										<table>
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
+		<a href="portfolio-item.html" class="portfolio__item">
+			<img src="img/portfolio-08.jpg" alt="" class="portfolio__img">
+		</a>
+		
 
-									<h4>Alternate</h4>
-									<div class="table-wrapper">
-										<table class="alt">
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-								</section>
+		<a href="portfolio-item.html" class="portfolio__item">
+			<img src="img/portfolio-09.jpg" alt="" class="portfolio__img">
+		</a>
+	</div> -->
 
-								<section>
-									<h3 class="major">Buttons</h3>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Primary</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button">Default</a></li>
-										<li><a href="#" class="button small">Small</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-									</ul>
-									<ul class="actions">
-										<li><span class="button primary disabled">Disabled</span></li>
-										<li><span class="button disabled">Disabled</span></li>
-									</ul>
-								</section>
 
-								<section>
-									<h3 class="major">Form</h3>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="demo-name">Name</label>
-												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
-											</div>
-											<div class="field half">
-												<label for="demo-email">Email</label>
-												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
-											</div>
-											<div class="field">
-												<label for="demo-category">Category</label>
-												<select name="demo-category" id="demo-category">
-													<option value="">-</option>
-													<option value="1">Manufacturing</option>
-													<option value="1">Shipping</option>
-													<option value="1">Administration</option>
-													<option value="1">Human Resources</option>
-												</select>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-												<label for="demo-priority-low">Low</label>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-high" name="demo-priority">
-												<label for="demo-priority-high">High</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-copy" name="demo-copy">
-												<label for="demo-copy">Email me a copy</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-human" name="demo-human" checked>
-												<label for="demo-human">Not a robot</label>
-											</div>
-											<div class="field">
-												<label for="demo-message">Message</label>
-												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</form>
-								</section>
+			
+<!-- Contact -->
+<section class="contact" id="contact">
+	<div class="background">
+	   <div class="container">
+		 <div class="screen">
+		   <div class="screen-header">
+			 <div class="screen-header-left">
+			   <div class="screen-header-button close"></div>
+			   <div class="screen-header-button maximize"></div>
+			   <div class="screen-header-button minimize"></div>
+			 </div>
+			 <div class="screen-header-right">
+			   <div class="screen-header-ellipsis"></div>
+			   <div class="screen-header-ellipsis"></div>
+			   <div class="screen-header-ellipsis"></div>
+			 </div>
+		   </div>
+		   <div class="screen-body">
+			 <div class="screen-body-item left">
+			   <div class="app-title">
+				 <span>CONTACT</span>
+				 <span>me</span>
+			   </div>
+			   <div class="app-contact">CONTACT INFO : +54 3489691235</div>
+			 </div>
+			 <div class="screen-body-item">
+			   <form action="https://formspree.io/f/xyyokljq" method="POST">
+				   <div class="app-form">
+					   <div class="app-form-group">
+						   <input class="app-form-control" placeholder="NAME" name= "name">
+					   </div>
+					   <div class="app-form-group">
+						   <input class="app-form-control" placeholder="EMAIL" type="email" name="mail">
+					   </div>
+					   <div class="app-form-group">
+						   <input class="app-form-control" placeholder="phone" name ="phone">
+					   </div>
+					   <div class="app-form-group message">
+						   <input class="app-form-control" placeholder="MESSAGE" name="message">
+					   </div>
+					   <div class="app-form-group buttons">
+						   <button class="app-form-button-cancel">CANCEL</button>
+						   <button class="app-form-button-send" type="submit" name = "submit">SEND</button>
+					   </div>
+				   </div>
+			   </form>
+			 </div>
+		   </div>
+		 </div>
+	   </div>
+   </div>
+   </section>
 
-							</article>
+  
+<!-- Footer Section -->
 
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<p class="copyright">&copy; Claudia Baratta</p>
-					</footer>
-
+<div class="footer_container">
+	<!-- <div class="footer_links">
+		<div class="footer_link_wrapper">
+			<div class="footer_link_items">
+				<h2>About Me</h2>
+				<a href="/sign-up">How it Works</a>
+				<a href="/sign-up">Testimonials</a>
+				<a href="/sign-up">Careers</a>
+				<a href="/sign-up">Terms of Service</a>
 			</div>
-
-		<!-- BG -->
-			<div id="bg"></div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+			<div class="footer_link_items">
+				<h2>Contact</h2>
+				<a href="/sign-up">How it Works</a>
+				<a href="/sign-up">Testimonials</a>
+				<a href="/sign-up">Careers</a>
+				<a href="/sign-up">Terms of Service</a>
+			</div>
+		</div>
+		<div class="footer_link_wrapper">
+			<div class="footer_link_items">
+				<h2>Videos</h2>
+				<a href="/sign-up">How it Works</a>
+				<a href="/sign-up">Testimonials</a>
+				<a href="/sign-up">Careers</a>
+				<a href="/sign-up">Terms of Service</a>
+			</div>
+			<div class="footer_link_items">
+				<h2>Social Media</h2>
+				<a href="/sign-up">How it Works</a>
+				<a href="/sign-up">Testimonials</a>
+				<a href="/sign-up">Careers</a>
+				<a href="/sign-up">Terms of Service</a>
+			</div>
+		</div>
+	</div> -->
+	<section class="social_media">
+		<div class="social_media_wrap">
+			<div class="footer_logo">
+				<a href="/" id="footer_logo">Bruno Cuevas</a>
+			</div>
+			<p class="website_rights">© Bruno Cuevas 2022. All Right Reserved</p>
+			<div class="social_icons">
+				<a href="https://www.facebook.com/bruno.cuevas.9" class="social_icon_link" target="_blank"><i class="fab fa-facebook"></i></a>
+				<a href="https://www.instagram.com/bruno.cuevas/" class="social_icon_link" target="_blank"><i class="fab fa-instagram"></i></a>
+				<a href="https://www.youtube.com/channel/UCYLbgi_TKiaCafUcZyvxBnw" class="social_icon_link" target="_blank"><i class="fab fa-youtube"></i></a>
+				<a href="https://www.linkedin.com/in/bruno-cuevas-6083051a2?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Box99fY4MRpS8jo6iIhv0mA%3D%3D" class="social_icon_link" target="_blank"><i class="fab fa-linkedin"></i></a>
+			</div>
+		</div>
+	</section>
+</div>
+	<script src="app.js"></script>
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.poptrox.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+</body>
 </html>
