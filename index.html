@@ -16,10 +16,36 @@
 	</head>
 	<body class="is-preload">
 
+		
+
 		<!-- Wrapper -->
-		<video class="video" src="video.mp4" type:"video/mp4" muted loop autoplay playsinline></video>
+		
 		
 			<div id="wrapper">
+				<!-- Navbar-->
+				<video class="video" src="images/video.mp4" muted loop autoplay playsinline></video>
+				<nav class="navbar">
+					<div class = "navbar_container">
+						<div class="navbar_toggle" id = "mobile-menu">
+							<span class="bar"></span>
+							<span class="bar"></span>
+							<span class="bar"></span>
+						</div>
+				
+						<ul class="navbar_menu">
+							<li class="navbar_item">
+								<a href="#home" class="navbar_links" id="home-page">Home</a> 
+							</li>
+							<li class="navbar_item">
+								<a href="#about" class="navbar_links" id="about">Mis Obras</a> 
+							</li>
+							<li class="navbar_item">
+								<a href="#services" class="navbar_links" id="services-page">Contacto</a> 
+							</li>
+						</ul>
+					</div>
+				</nav>
+
 				
 
 				<!-- Header -->
@@ -37,7 +63,7 @@
 						<nav>
 							<ul>
 								<li><a href="#intro">Sobre mí</a></li>
-								<li><a href="portfolio/portfolio.html">Mis obras</a></li>
+								<li><a href="works.html">Mis obras</a></li>
 								<li><a href="#about">Experiencia</a></li>
 								<li><a href="#contact">Contacto</a></li>
 								<!--<li><a href="#elements">Elements</a></li>-->
@@ -93,15 +119,9 @@
 									</div>
 									<ul class="actions">
 										<li><input type="submit" value="Enviar" class="primary" /></li>
-										<li><input type="reset" value="Cancelar" /></li>
+										<li><input type="reset" value="Resetear" /></li>
 									</ul>
 								</form>
-								<!-- <ul class="icons">
-									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-								</ul> -->
 							</article>
 
 						<!-- Elements -->
@@ -364,6 +384,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="app.js"></script>
 
 	</body>
 </html>

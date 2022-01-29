@@ -1,11 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600");
 @import url("fontawesome-all.min.css");
 
-/*
-	Parallelism by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -83,10 +78,9 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("images/overlay.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), -moz-linear-gradient(bottom, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), linear-gradient(bottom, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/bg.jpg");
 		background-position: top left, bottom left, auto;
 		background-size: auto, 100% 100%, cover;
 		background-attachment: fixed;
@@ -746,7 +740,7 @@ input, select, textarea {
 			color: #fff;
 		}
 
-		.poptrox-popup .nav-next, .poptrox-popup .nav-previous {
+		.poptrox-popup .nav-next, .poptrox-popup .nav-previous, .poptrox-popup #navbar  {
 			text-decoration: none;
 			font-weight: normal;
 			font-style: normal;
@@ -757,7 +751,7 @@ input, select, textarea {
 			opacity: 0.35;
 		}
 
-			.poptrox-popup .nav-next:hover, .poptrox-popup .nav-previous:hover {
+			.poptrox-popup .nav-next:hover, .poptrox-popup .nav-previous:hover{
 				opacity: 1.0;
 			}
 
@@ -831,3 +825,27 @@ input, select, textarea {
 				}
 
 		}
+
+
+		@media screen and (max-width: 576px){
+			#navbar a{
+				width: 90px;
+			}
+
+			#navbar{
+				align-items: center;
+				margin-left: 35px;
+			}
+		}
+
+#navbar{
+		animation: fadeInAnimation ease-in 3s;
+	}
+	@keyframes fadeInAnimation {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
